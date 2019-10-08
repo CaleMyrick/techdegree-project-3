@@ -23,7 +23,7 @@ h3{
 p{
   text-align: center;
   padding-top: .5em;
-  min-width:320px;
+  max-width:65%;
 }
 
 .hr-1{
@@ -33,7 +33,6 @@ p{
   border:right:none;
   border-top: 2px solid gray;
   border-bottom:1px solid gray;
-  min-width:320px;
 }
 
 .subtitle{
@@ -105,7 +104,7 @@ select {
   padding-top:1em;
   padding-bottom:.75em;
   color:gray;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .newsletter-label{
@@ -120,8 +119,10 @@ select {
 }
 
 .wrapper{
-  max-width: 90%;
+  max-width: 99%;
   margin: 0 auto;
+  padding-left: 0;
+  padding-right:0;
 }
 
 #other{
