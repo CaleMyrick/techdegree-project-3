@@ -5,7 +5,7 @@
 }
 
 .code-review{
-  background-color: gray;
+  background-color:#414C4C;
   min-height:4em;
   text-align: center;
 }
@@ -18,12 +18,15 @@ h1{
 h3{
   text-align: center;
   padding-top:1em;
+  color:#414C4C;
 }
 
 p{
   text-align: center;
-  padding-top: .5em;
-  max-width:65%;
+  font-size: .825em;
+  padding-top: .75em;
+  max-width:85%;
+  color:gray;
 }
 
 .hr-1{
@@ -42,6 +45,7 @@ p{
   font-weight: bold;
   color:gray;
   margin:0;
+  color:#414C4C;
 
 }
 
@@ -51,7 +55,7 @@ fieldset{
 
 label{
   display:block;
-  color: #b7b7b7;
+  color: #414C4C;
   margin-bottom:1em;
 }
 
@@ -64,37 +68,36 @@ label{
   max-width:40%;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=datetime],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
 textarea,
 select {
-  border-style: none;
+  border-style:solid;
+  border-color: transparent;
   border-radius: 3px;
   font-size: 16px;
   margin: 0 0 30px;
-  outline: 0;
   padding: 15px;
   width: 100%;
   background-color: #e8eeef;
-  color: #8a97a0;
-  -webkit-transition: background-color 2s;
-  transition: background-color 2s;
+  color: #414C4C;
 }
 
 .newsletter h3{
   margin:0;
   text-align: left;
   padding-left:.5em;
-  color:darkgray;
-  font-weight:bold;
+  padding-bottom: 1em;
+  color:#414C4C;
+  font-weight:bolder;
 }
 
 .newsletter p{
@@ -102,14 +105,14 @@ select {
   text-align: left;
   padding-left:.5em;
   padding-top:1em;
-  padding-bottom:.75em;
-  color:gray;
+  padding-bottom:1em;
+  color:#414C4C;
   max-width: 60%;
 }
 
 .newsletter-label{
   width:100%;
-  padding:5px 0 5px 0;
+  padding:8px 0 5px 0;
 
 }
 
@@ -130,18 +133,27 @@ select {
   height:100px;
 }
 
+
 button {
   padding-top:12px;
   padding-bottom:12px;
-  padding-left:28px;
-  margin-left:.65em;
+  margin-left:.5em;
+  margin-right:.5em;
+  margin-bottom:2em;
   color: #fff;
   background-color: #52bad5;
   font-size: 18px;
   text-align: center;
   border-radius: 3px;
   border: none;
-  width: 95%;
+  width: 94%;
+}
+
+h5{
+  text-align: center;
+  font-style: italic;
+  color: lightgray;
+  padding-bottom:3em;
 }
 
 /* Media Queries For Larger Screens*/
@@ -186,5 +198,9 @@ button {
 
   .newsletter-label {
     width: 100%;
+  }
+
+  button{
+    width:96.5%;
   }
 }
